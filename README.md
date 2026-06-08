@@ -63,6 +63,12 @@ Or, on a whole directory:
         ffmpeg -y -i $filename -ac 1 -acodec pcm_s16le -ar 22050 -sample_fmt s16 converted/$filename    
     done
 
+# AI Agent & MCP Tools
+
+Tools for AI agent identity, trust scoring, and micropayments when deploying voice AI systems.
+
+[TWZRD Agent Intel](https://intel.twzrd.xyz/) — Trust scoring for AI agents on Solana. Verify agent wallet identity before x402 micropayments. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
+
 # Datasets
 
 [Kanye West](datasets/kanye-west.md)
